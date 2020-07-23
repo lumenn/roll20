@@ -1,0 +1,19 @@
+&{template:dnd4epower}
+{{atwill=1}}
+{{emote=You unleash a psychic assault on your foe’s mental pathways. You can increase the assault’s intensity to weaken your foe’s defenses.}}
+{{name=Mind Thrust}}
+{{level=Psion Attack 1}}
+{{type=At-Will}}
+{{keywords=✦ Augmentable, Implement, Psionic, Psychic}}
+{{action=Standard Action}}
+{{range=Ranged 10}}
+{{target=One creature}}
+{{special=You can use this power unaugmented as a ranged basic attack.}}
+{{attack=[[1d20 + @{Qimar|Intelligence_mod_level}]] Intelligence vs. Will}}
+{{damage=[[1d10 + @{Qimar|Intelligence_mod_level}]] Psychic}}
+{{augmenttoggle=[[?{Augment|0|1 Penalty to Will|2 Damage}]]}}
+{{augment1attack=Intelligence vs. Will}}
+{{augment1hiteffect=As above, and the target takes a penalty to Will equal to your Charisma modifier @{Qimar|Charisma_mod_level} until the end of your next turn.}}
+{{augment2attack=Intelligence vs. Will}}
+{{augment2damage=[[2d10 + @{Qimar|Intelligence_mod_level}]] Psychic}}
+{{augment2hiteffect=The target takes a penalty to all defenses equal to your Charisma modifier @{Qimar|Charisma_mod_level} until the end of your next turn.}}

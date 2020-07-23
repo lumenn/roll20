@@ -1,0 +1,10 @@
+&{template:dnd4epower}
+{{encounter=1}}
+{{emote=With a thought, you transport yourself to a position that better suits your desires.}}
+{{name=Transport Self}}
+{{level=Psion Utility 2}}
+{{type=Encounter}}
+{{keywords=✦ Psionic, Teleportation}}
+{{action=Move Action}}
+{{range=Personal}}
+{{effect=You teleport a number of squares equal to 1 + your Wisdom modifier @{Qimar|Wisdom_mod_level}.}}

@@ -1,0 +1,11 @@
+&{template:dnd4epower}
+{{encounter=1}}
+{{emote=You communicate telepathically with a creature.}}
+{{name=Send Thoughts}}
+{{level=Psion Feature}}
+{{type=Encounter}}
+{{keywords=Psionic}}
+{{action=Free Action}}
+{{range=Range 20}}
+{{target=One creature that shares a language with you}}
+{{effect=You send a mental message of 25 words or fewer to the target. The target can respond in kind as a free action.}}

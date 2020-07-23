@@ -1,0 +1,19 @@
+&{template:dnd4epower}
+{{atwill=1}}
+{{emote=You insert thoughts of defeat into your foes’ minds, sapping the enemies’ will to fight.}}
+{{name=Dishearten}}
+{{level=Psion Attack 1}}
+{{type=At-Will}}
+{{keywords=✦ Augmentable, Implement, Psionic, Psychic}}
+{{action=Standard Action}}
+{{range=Area burst 1 within 10 squares}}
+{{target=Each creature in burst}}
+{{attack=[[1d20 + @{Qimar|Intelligence_mod_level}]] Intelligence vs. Will}}
+{{damage=[[1d6 + @{Qimar|Intelligence_mod_level}]] Psychic}}
+{{hiteffect=Target takes a –2 penalty to attack rolls until the end of your next turn.}}
+{{augmenttoggle=[[?{Augment|0|1 Push|2 Damage}]]}}
+{{augment1attack=Intelligence vs. Will}}
+{{augment1hiteffect=As above, and the target cannot make opportunity attacks until the end of your next turn.}}
+{{augment2attack=Intelligence vs. Will}}
+{{augment2damage=[[2d6 + @{Qimar|Intelligence_mod_level}]] Psychic}}
+{{augment2hiteffect=The target takes a penalty to attack rolls equal to your Charisma modifier @{Qimar|Charisma_mod_level} until the end of your next turn.}}

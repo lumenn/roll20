@@ -1,0 +1,14 @@
+&{template:dnd4epower}
+{{daily=1}}
+{{emote=You forge a barrier of hand-shaped force. When your foe moves too close to you, the barrier repels it.}}
+{{name=Hand of Caution}}
+{{level=Psion Attack 1}}
+{{type=Daily}}
+{{keywords=✦ Force, Implement, Psionic}}
+{{action=Standard Action}}
+{{range=Ranged 10}}
+{{target=One creature}}
+{{attack=[[1d20 + @{Qimar|Intelligence_mod_level}]] Intelligence vs. Reflex}}
+{{damage=[[2d8 + @{Qimar|Intelligence_mod_level}]] Force}}
+{{miss=Half damage.}}
+{{effect=Until the end of the encounter, you can use a minor action to push the target 1 square when the target is within 5 squares of you. This effect ends if you end your turn adjacent to the target.}}

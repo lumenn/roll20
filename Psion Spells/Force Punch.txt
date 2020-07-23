@@ -1,0 +1,19 @@
+&{template:dnd4epower}
+{{atwill=1}}
+{{emote=You punch your foe telekinetically, pushing it and its allies away from you.}}
+{{name=Force Punch}}
+{{level=Psion Attack 1}}
+{{type=At-Will}}
+{{keywords= ✦ Augmentable, Force, Implement, Psionic}}
+{{action=Standard Action}}
+{{range=Melee 1}}
+{{target=One creature}}
+{{attack=[[1d20 + @{Qimar|Intelligence_mod_level}]] Intelligence vs. Fortitude}}
+{{damage=[[1d8 + @{Qimar|Intelligence_mod_level}]] Force}}
+{{hiteffect=Push the target and each enemy adjacent to you 1square}}
+{{augmenttoggle=[[?{Augment|0|1 Push|2 Damage}]]}}
+{{augment1attack=Intelligence vs. Fortitude}}
+{{augment1hiteffect=Push the target a number of squares equal to your Wisdom modifier [[@{Qimar|Wisdom_mod_level}]]}}
+{{augment2attack=Intelligence vs. Fortitude}}
+{{augment2damage=[[1d8 + @{Qimar|Intelligence_mod_level} + @{Qimar|Wisdom_mod_level}]] Force}}
+{{augment2hiteffect=Knock the target prone. In addition, you push the target and each enemy adjacent to you 1 square..}}

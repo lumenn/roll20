@@ -1,0 +1,11 @@
+&{template:dnd4epower}
+{{encounter=1}}
+{{emote=Your mental barrage momentarily confuses an enemy.}}
+{{name=Distract}}
+{{level=Psion Feature}}
+{{type=Encounter}}
+{{keywords=Psionic}}
+{{action=Minor Action}}
+{{range=Range 10}}
+{{target=[[{{@{Qimar|Level}, 0}>11}*([[{{@{Qimar|Level}, 0}>21}*(3-2) + 2]]-1) + 1]]}}
+{{effect=The target grants combat advantage to the next creature that attacks it before the end of your next turn.}}
