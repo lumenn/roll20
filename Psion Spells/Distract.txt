@@ -7,5 +7,5 @@
 {{keywords=Psionic}}
 {{action=Minor Action}}
 {{range=Range 10}}
-{{target=[[{{@{Qimar|Level}, 0}>11}*([[{{@{Qimar|Level}, 0}>21}*(3-2) + 2]]-1) + 1]]}}
+{{target=[[1 + floor((@{Qimar|Level}-1)/10)]]}}
 {{effect=The target grants combat advantage to the next creature that attacks it before the end of your next turn.}}

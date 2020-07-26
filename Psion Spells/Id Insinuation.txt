@@ -1,0 +1,28 @@
+&{template:dnd4epower}
+{{atwill=1}}
+{{emote=You send tendrils of thought burrowing into your foes’ minds, compromising the enemies’ resilience. By increasing the size of the tendrils, you can make your foes more susceptible to harm.}}
+{{name=Id Insinuation}}
+{{level=Psion Attack 3}}
+{{type=At-Will}}
+{{keywords= ✦ Augmentable, Implement, Psionic, Psychic}}
+{{action=Standard Action}}
+{{range=Area burst 1 within 10 squares}}
+{{target=Each creature in burst}}
+{{attack=[[1d20 + @{Qimar|Intelligence_mod_level}]] Intelligence vs. Will}}
+{{damage=[[1d6 + @{Qimar|Intelligence_mod_level}]] Force}}
+{{hiteffect=The target takes a –2 penalty to Fortitude until the end of your next turn.}}
+{{augmenttoggle=[[?{Augment|0|1 Penalty to Fortitude|2 Damage}]]}}
+{{augment1attack=Intelligence vs. Will}}
+{{augment1hiteffect=The target takes a –[[@{Qimar|Wisdom_mod_level}]] penalty to Fortitude until the end of your next turn.}}
+{{augment2attack=Intelligence vs. Will}}
+{{augment2damage=[[2d8 + @{Qimar|Intelligence_mod_level} + @{Qimar|Wisdom_mod_level}]] Force}}
+{{augment2hiteffect=If an attack hits the target’s Fortitude before the end of your next turn, that attack deals extra damage equal to your Charisma modifier [[@{Qimar|Charisma_mod_level}]].}}
+
+
+
+
+
+
+
+
+

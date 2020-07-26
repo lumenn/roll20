@@ -1,0 +1,5 @@
+&{template:dnd4epower}
+{{item=1}}
+{{name=Crystal Orb}}
+{{Energized}}{{When you use an attack power through an energized implement, you gain a +[[floor(@{Qimar|level}/10)+2]] bonus to damage rolls if the power has the keyword that matches the implement’s damage type.}}
+{{Undeniable}}{{You gain a +[[1]] bonus to attack rolls against Will when attacking with an undeniable implement}}
